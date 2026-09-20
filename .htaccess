@@ -1,0 +1,2 @@
+# Defense in depth only. The server document root must be public/.
+Require all denied

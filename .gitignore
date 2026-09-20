@@ -1,0 +1,8 @@
+app/config.local.php
+.env
+*.log
+.DS_Store
+__pycache__/
+node_modules/
+tests/results/
+.idea

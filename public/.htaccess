@@ -1,0 +1,12 @@
+Require all granted
+Options -Indexes
+DirectoryIndex index.php
+# PHP in CGI/FastCGI mode may otherwise lose the Authorization header.
+<IfModule mod_setenvif.c>
+    SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+</IfModule>
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "no-referrer"
+    Header always set X-Frame-Options "DENY"
+</IfModule>

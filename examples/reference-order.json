@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "sku": "KB-001",
+      "quantity": 2
+    },
+    {
+      "sku": "MS-001",
+      "quantity": 1
+    }
+  ],
+  "coupon_code": "STUDENT10",
+  "delivery_method": "courier",
+  "customer": {
+    "name": "Testovací Študent",
+    "email": "student@example.test",
+    "address": "Testovacia 12",
+    "city": "Žilina",
+    "postal_code": "010 01"
+  },
+  "note": "Referenčný scenár",
+  "accept_terms": true,
+  "expected_total_cents": 8563
+}
